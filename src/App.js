@@ -1,12 +1,10 @@
 import React from 'react';
-import './style.css';
+import Topbar from 'Topbar';
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>1Start editing to see some magic happen :)</p>
-      <butto className="btn btn-sm btn-danger">Click</butto>
-    </div>
+    <>
+      <Topbar />
+    </>
   );
 }
