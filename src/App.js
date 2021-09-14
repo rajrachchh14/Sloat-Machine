@@ -1,10 +1,14 @@
 import React from 'react';
-import Topbar from 'Topbar';
+import Topbar from './Topbar';
+import BodyPart from './BodyPart';
 
 export default function App() {
   return (
     <>
-      <Topbar />
+      <div>
+        <Topbar />
+        <BodyPart />
+      </div>
     </>
   );
 }
