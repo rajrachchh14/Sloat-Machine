@@ -1,20 +1,22 @@
 import React from 'react';
 import LogicPart from './LogicPart';
 export default function BodyPart() {
+  // let PullFunction = () => {
+  //   return;
+  // };
+
   return (
     <>
-      {/* {console.log(list)} */}
       <br />
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
-            {/* <button
-              type="button"
-              className="btn btn-dark"
-              onClick={() => PullFunction()}
+            <button
+              className="btn btn-danger"
+              onClick={() => location.reload(false)}
             >
               Pull
-            </button> */}
+            </button>
             <br />
             <br />
             <LogicPart />
